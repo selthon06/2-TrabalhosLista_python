@@ -173,13 +173,20 @@ adicionar = 0
 aluno_contador = 0
 nota_contador = 0
 print("<<<<<<<<<<  MENU  >>>>>>>>>")
-def sistema_academico():
+def sistema_academico(adicinar):
     for adicionar in alunos:
         if adicionar == 1:
-            adicionar_aluno = input(f"nome do aluno {aluno_contador}: ")
+            adicionar_aluno = input(f"nome do aluno {aluno_contador + 1}: ")
             alunos+=aluno_contador
-            adicionar_nota= input(int(f"nota do aluno {nota_contador}: "))
+            adicionar_nota= input(int(f"nota do aluno {nota_contador + 1}: "))
             alunos+=nota_contador
+        elif:
+            if adicionar == 2:
+                remover_aluno = input("digite o nome do aluno que sera removido:")
+        elif:
+            if adicinar == 3:
+                print(max(nota_contador))
+        
     return sistema_academico
 
 print(sistema_academico)
